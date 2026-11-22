@@ -1,0 +1,156 @@
+{
+  "method": "read_only_validation_and_saved_similarity_analysis_no_model_inference",
+  "inputs": {
+    "pilot_dataset_sha256": "d2d34281542183ea67a6da3a3136f0ac715f4ce4dfd3a74753632bc5eecea84b",
+    "h1_retrieval_results_sha256": "79836960d7137ad5ae1428fba3c8985c31b4f5f6b734e6a952b00bf038132ba2",
+    "h2_retrieval_results_sha256": "c9b46d76fc443df5afc4b4b258617a47f842c85462e97ec82d2b8130af7afb4e"
+  },
+  "dataset_validation": {
+    "rows": 33,
+    "unique_audio_ids": 33,
+    "label_field_checks_passed": 429,
+    "label_field_checks_expected": 429,
+    "audio_sources": {
+      "git_lfs_object": 33
+    },
+    "audio_total_bytes": 1846316564,
+    "unique_audio_sha256": 33,
+    "metadata_groups": 17,
+    "group_size_distribution": {
+      "1": 9,
+      "2": 4,
+      "3": 2,
+      "5": 2
+    },
+    "unique_text_counts": {
+      "native_kr": 17,
+      "en": 17,
+      "mt_kr": 17,
+      "romanized_en": 3,
+      "descriptive_en": 3
+    },
+    "translation_semantic_equivalence": {
+      "auto_preserved_surface_change_needs_human_review": 10,
+      "auto_flagged_genre_term_generalization_needs_human_review": 18,
+      "auto_flagged_scope_shift_needs_human_review": 5
+    },
+    "h2_semantic_equivalence": {
+      "auto_plausible_needs_human_review": 25,
+      "auto_flagged_nonunique_gloss_needs_human_review": 3,
+      "auto_flagged_broad_gloss_needs_human_review": 5
+    },
+    "assigned_h2_targets": {
+      "장구": 25,
+      "대금": 3,
+      "소리북": 5
+    },
+    "label_instrument_occurrences": {
+      "장구": 25,
+      "대금": 28,
+      "소리북": 5
+    },
+    "human_reviewed_rows": 0,
+    "needs_human_review_rows": 33
+  },
+  "h1_group_candidate_sensitivity": {
+    "max": {
+      "query_groups": 17,
+      "candidate_groups": 17,
+      "mrr": {
+        "native_kr": 0.18677444239727978,
+        "en": 0.25567841424242804,
+        "mt_kr": 0.18733107530685383
+      },
+      "native_minus_mt": {
+        "estimate": -0.0005566329095740866,
+        "ci_95_percentile": [
+          -0.00837439521263051,
+          0.008661616161616162
+        ],
+        "replicates": 100000,
+        "seed": 20261122,
+        "resampling_unit": "metadata_group"
+      },
+      "native_minus_en": {
+        "estimate": -0.06890397184514833,
+        "ci_95_percentile": [
+          -0.20373588205335608,
+          0.039870993577740925
+        ],
+        "replicates": 100000,
+        "seed": 20261122,
+        "resampling_unit": "metadata_group"
+      }
+    },
+    "mean": {
+      "query_groups": 17,
+      "candidate_groups": 17,
+      "mrr": {
+        "native_kr": 0.2147820556990107,
+        "en": 0.28104640457581637,
+        "mt_kr": 0.22360917629083718
+      },
+      "native_minus_mt": {
+        "estimate": -0.00882712059182647,
+        "ci_95_percentile": [
+          -0.022986306993659927,
+          0.0038691700456406387
+        ],
+        "replicates": 100000,
+        "seed": 20261122,
+        "resampling_unit": "metadata_group"
+      },
+      "native_minus_en": {
+        "estimate": -0.06626434887680563,
+        "ci_95_percentile": [
+          -0.23088933941875117,
+          0.05480539212805648
+        ],
+        "replicates": 100000,
+        "seed": 20261122,
+        "resampling_unit": "metadata_group"
+      }
+    }
+  },
+  "h2_unique_term_instrument_presence": {
+    "장구": {
+      "assigned_rows": 25,
+      "positive_count": 25,
+      "negative_count": 8,
+      "prevalence_ap_baseline": 0.757575757576,
+      "romanized_en_auroc": 0.415,
+      "romanized_en_average_precision": 0.769863443086,
+      "descriptive_en_auroc": 0.795,
+      "descriptive_en_average_precision": 0.927924011859,
+      "ranking_spearman_rho": 0.093248663102,
+      "top_5_overlap": 2,
+      "top_10_overlap": 2
+    },
+    "소리북": {
+      "assigned_rows": 5,
+      "positive_count": 5,
+      "negative_count": 28,
+      "prevalence_ap_baseline": 0.151515151515,
+      "romanized_en_auroc": 0.571428571429,
+      "romanized_en_average_precision": 0.202343936257,
+      "descriptive_en_auroc": 0.464285714286,
+      "descriptive_en_average_precision": 0.17015993266,
+      "ranking_spearman_rho": 0.59692513369,
+      "top_5_overlap": 2,
+      "top_10_overlap": 5
+    },
+    "대금": {
+      "assigned_rows": 3,
+      "positive_count": 28,
+      "negative_count": 5,
+      "prevalence_ap_baseline": 0.848484848485,
+      "romanized_en_auroc": 0.207142857143,
+      "romanized_en_average_precision": 0.734263675801,
+      "descriptive_en_auroc": 0.407142857143,
+      "descriptive_en_average_precision": 0.822853842839,
+      "ranking_spearman_rho": 0.466911764706,
+      "top_5_overlap": 2,
+      "top_10_overlap": 5
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "group_definition": "genre_major + genre + unordered validated instrument set",
+  "groups": 17,
+  "group_size_distribution": {
+    "1": 9,
+    "2": 4,
+    "3": 2,
+    "5": 2
+  },
+  "query_level_mrr": {
+    "native_kr": 0.166690684317552,
+    "en": 0.22680593359872417,
+    "mt_kr": 0.16916715680260572
+  },
+  "group_macro_mrr": {
+    "native_kr": 0.11836849670300455,
+    "en": 0.22119131614202728,
+    "mt_kr": 0.1260993138622441
+  },
+  "differences": {
+    "native_minus_mt": {
+      "query_level": -0.0024764724850537267,
+      "group_macro": -0.007730817159239553,
+      "bootstrap": {
+        "estimate": -0.00773081715923956,
+        "ci_95_percentile": [
+          -0.03049302094599662,
+          0.007413464926904647
+        ],
+        "replicates": 100000,
+        "seed": 20261122,
+        "resampling_unit": "metadata_group"
+      }
+    },
+    "native_minus_en": {
+      "query_level": -0.06011524928117218,
+      "group_macro": -0.10282281943902273,
+      "bootstrap": {
+        "estimate": -0.10282281943902272,
+        "ci_95_percentile": [
+          -0.2520658184658343,
+          0.016814781793403587
+        ],
+        "replicates": 100000,
+        "seed": 20261122,
+        "resampling_unit": "metadata_group"
+      }
+    }
+  },
+  "exclude_0066_query_keep_33_candidates": {
+    "excluded_audio_id": "0066_정악_풍류음악",
+    "excluded_group": "g03",
+    "query_count": 32,
+    "group_count": 16,
+    "query_level_mrr": {
+      "native_kr": 0.16148310153580883,
+      "en": 0.2026436190236843,
+      "mt_kr": 0.15882863045268714
+    },
+    "query_level_differences": {
+      "native_minus_mt": 0.0026544710831216956,
+      "native_minus_en": -0.04116051748787547
+    },
+    "group_macro_mrr": {
+      "native_kr": 0.104933194413609,
+      "en": 0.172515773400904,
+      "mt_kr": 0.10273052097863437
+    },
+    "group_macro_differences": {
+      "native_minus_mt": 0.002202673434974628,
+      "native_minus_en": -0.06758257898729499
+    }
+  }
+}

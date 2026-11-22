@@ -1,0 +1,303 @@
+{
+  "dataset": "pilot_dataset.csv",
+  "dataset_sha256": "d2d34281542183ea67a6da3a3136f0ac715f4ce4dfd3a74753632bc5eecea84b",
+  "rows": 33,
+  "unique_audio_ids": 33,
+  "complete_texts": {
+    "native_kr": 33,
+    "en": 33,
+    "mt_kr": 33
+  },
+  "unique_texts": {
+    "native_kr": 17,
+    "en": 17,
+    "mt_kr": 17
+  },
+  "answer_definition": "genre_major + genre + unordered validated instrument set",
+  "answer_groups": 17,
+  "group_size_distribution": {
+    "1": 9,
+    "2": 4,
+    "3": 2,
+    "5": 2
+  },
+  "duplicate_groups": [
+    [
+      "0004_정악_풍류음악",
+      "0058_정악_풍류음악"
+    ],
+    [
+      "0012_정악_풍류음악",
+      "0049_정악_풍류음악"
+    ],
+    [
+      "0157_정악_궁중음악",
+      "0162_정악_궁중음악"
+    ],
+    [
+      "0176_민속악_산조",
+      "0217_민속악_산조",
+      "0218_민속악_산조"
+    ],
+    [
+      "0225_민속악_산조",
+      "0235_민속악_산조"
+    ],
+    [
+      "0406_민속악_대풍류",
+      "0409_민속악_대풍류",
+      "0411_민속악_대풍류"
+    ],
+    [
+      "0439_민속악_판소리",
+      "0446_민속악_판소리",
+      "0470_민속악_판소리",
+      "0474_민속악_판소리",
+      "0480_민속악_판소리"
+    ],
+    [
+      "0736_민속악_민요",
+      "0737_민속악_민요",
+      "0739_민속악_민요",
+      "0740_민속악_민요",
+      "0747_민속악_민요"
+    ]
+  ],
+  "audio_sources": {
+    "git_lfs_object": 33
+  },
+  "audio_total_bytes": 1846316564,
+  "audio_files": [
+    {
+      "audio_id": "0004_정악_풍류음악",
+      "staging_path": "artifacts/h1_retrieval/staging/audio/0004_정악_풍류음악.wav",
+      "source": "git_lfs_object",
+      "bytes": 55764154,
+      "sha256": "2947d1717578ed41e0cd6d4b96945a2617981326dc29aec7e37461a0a19455f7"
+    },
+    {
+      "audio_id": "0012_정악_풍류음악",
+      "staging_path": "artifacts/h1_retrieval/staging/audio/0012_정악_풍류음악.wav",
+      "source": "git_lfs_object",
+      "bytes": 62973290,
+      "sha256": "375c62fb34d2e2128a61fc358ee658ff43e4c20225ce4d4019df8ae65d5b2ed1"
+    },
+    {
+      "audio_id": "0049_정악_풍류음악",
+      "staging_path": "artifacts/h1_retrieval/staging/audio/0049_정악_풍류음악.wav",
+      "source": "git_lfs_object",
+      "bytes": 27633330,
+      "sha256": "e26f2b27c64540fbb172609a9fb67d5eeacdaf18f68da2267e044d0242463c2d"
+    },
+    {
+      "audio_id": "0058_정악_풍류음악",
+      "staging_path": "artifacts/h1_retrieval/staging/audio/0058_정악_풍류음악.wav",
+      "source": "git_lfs_object",
+      "bytes": 99018946,
+      "sha256": "3d9100ab22f578f393f4a9ecb3fe74c7e603c9b28688b6722905ca139bdf4db1"
+    },
+    {
+      "audio_id": "0066_정악_풍류음악",
+      "staging_path": "artifacts/h1_retrieval/staging/audio/0066_정악_풍류음악.wav",
+      "source": "git_lfs_object",
+      "bytes": 89464682,
+      "sha256": "6de2e05cbb9f2b1667a6b89f1cadcf11896732ae1fad93fb4e8068cc60c6bbb1"
+    },
+    {
+      "audio_id": "0118_정악_궁중음악",
+      "staging_path": "artifacts/h1_retrieval/staging/audio/0118_정악_궁중음악.wav",
+      "source": "git_lfs_object",
+      "bytes": 31791610,
+      "sha256": "180078694bfd0b57bb93e7c324e4e62f53d50415c60e3a1e3334480ed3fce80e"
+    },
+    {
+      "audio_id": "0142_정악_궁중음악",
+      "staging_path": "artifacts/h1_retrieval/staging/audio/0142_정악_궁중음악.wav",
+      "source": "git_lfs_object",
+      "bytes": 56980146,
+      "sha256": "ced9c95dfb945752306c842fb465777a8ddcdaf766f8c5fa63309970db51f93c"
+    },
+    {
+      "audio_id": "0147_정악_궁중음악",
+      "staging_path": "artifacts/h1_retrieval/staging/audio/0147_정악_궁중음악.wav",
+      "source": "git_lfs_object",
+      "bytes": 53592730,
+      "sha256": "eb576ff9d2b2ced45281abbd6d55adaa491fee8719f6bf0f638d050aaccd1fa4"
+    },
+    {
+      "audio_id": "0157_정악_궁중음악",
+      "staging_path": "artifacts/h1_retrieval/staging/audio/0157_정악_궁중음악.wav",
+      "source": "git_lfs_object",
+      "bytes": 99018946,
+      "sha256": "58082189a50bed724c806192089c2d98c25b468d7ecdf62883ab17fb8b57a749"
+    },
+    {
+      "audio_id": "0162_정악_궁중음악",
+      "staging_path": "artifacts/h1_retrieval/staging/audio/0162_정악_궁중음악.wav",
+      "source": "git_lfs_object",
+      "bytes": 26840762,
+      "sha256": "35454a0f7fecd4c798a7f6cb3d3c2092656509859e984f50bf511052a4530ea5"
+    },
+    {
+      "audio_id": "0176_민속악_산조",
+      "staging_path": "artifacts/h1_retrieval/staging/audio/0176_민속악_산조.wav",
+      "source": "git_lfs_object",
+      "bytes": 42996170,
+      "sha256": "f6f337c5a072dbebb34040aa6de4a59249f507d10ca30b39a6a65ad04377f2d6"
+    },
+    {
+      "audio_id": "0217_민속악_산조",
+      "staging_path": "artifacts/h1_retrieval/staging/audio/0217_민속악_산조.wav",
+      "source": "git_lfs_object",
+      "bytes": 6202562,
+      "sha256": "c46a2087826d3f93e8901bc4f9efe8f0d6c0afcce3f930ef827dddf3e1da4751"
+    },
+    {
+      "audio_id": "0218_민속악_산조",
+      "staging_path": "artifacts/h1_retrieval/staging/audio/0218_민속악_산조.wav",
+      "source": "git_lfs_object",
+      "bytes": 7722562,
+      "sha256": "1b0cb38206019633fdedf4a03e3208a21d77b0a004e3f109c36104cf2c8c1b4e"
+    },
+    {
+      "audio_id": "0225_민속악_산조",
+      "staging_path": "artifacts/h1_retrieval/staging/audio/0225_민속악_산조.wav",
+      "source": "git_lfs_object",
+      "bytes": 89117250,
+      "sha256": "79d9ce6be2e7e9e2775ba7faee48337fdbd0e5d13b7190528c3f03420e53c8ad"
+    },
+    {
+      "audio_id": "0235_민속악_산조",
+      "staging_path": "artifacts/h1_retrieval/staging/audio/0235_민속악_산조.wav",
+      "source": "git_lfs_object",
+      "bytes": 94328674,
+      "sha256": "edd1a75c58a4e635020ae746f61089d27af52e1d0a89d643564ab5b7cd12a854"
+    },
+    {
+      "audio_id": "0406_민속악_대풍류",
+      "staging_path": "artifacts/h1_retrieval/staging/audio/0406_민속악_대풍류.wav",
+      "source": "git_lfs_object",
+      "bytes": 140962018,
+      "sha256": "f629027307814fd0b4e2006d1e69e6b511c9ea79231fc226de72c4abcc15a13f"
+    },
+    {
+      "audio_id": "0409_민속악_대풍류",
+      "staging_path": "artifacts/h1_retrieval/staging/audio/0409_민속악_대풍류.wav",
+      "source": "git_lfs_object",
+      "bytes": 55108666,
+      "sha256": "7ede4080c1ffe528712169142061a2734305e507ba45f1be981f768328ad19fc"
+    },
+    {
+      "audio_id": "0411_민속악_대풍류",
+      "staging_path": "artifacts/h1_retrieval/staging/audio/0411_민속악_대풍류.wav",
+      "source": "git_lfs_object",
+      "bytes": 39988594,
+      "sha256": "450dcbc0cb3c796d7082dc5c1956c452f441a0d0a16ae78aefce6d2b875dd00e"
+    },
+    {
+      "audio_id": "0439_민속악_판소리",
+      "staging_path": "artifacts/h1_retrieval/staging/audio/0439_민속악_판소리.wav",
+      "source": "git_lfs_object",
+      "bytes": 32635366,
+      "sha256": "fc34d160b2b5dae90d6134025674daf2afcbbe7f262a94ab2e7f0355a9aa4365"
+    },
+    {
+      "audio_id": "0446_민속악_판소리",
+      "staging_path": "artifacts/h1_retrieval/staging/audio/0446_민속악_판소리.wav",
+      "source": "git_lfs_object",
+      "bytes": 67130020,
+      "sha256": "587d23dbe563f3a1cd8a1731d47876c975e56e8aab2a2432cd1d95a0fc0a7b6a"
+    },
+    {
+      "audio_id": "0470_민속악_판소리",
+      "staging_path": "artifacts/h1_retrieval/staging/audio/0470_민속악_판소리.wav",
+      "source": "git_lfs_object",
+      "bytes": 64945122,
+      "sha256": "728a4b3f4eebf2a744cfdd58cd293456992bf3101325c3ba851196c3dcc8b58c"
+    },
+    {
+      "audio_id": "0474_민속악_판소리",
+      "staging_path": "artifacts/h1_retrieval/staging/audio/0474_민속악_판소리.wav",
+      "source": "git_lfs_object",
+      "bytes": 54338906,
+      "sha256": "db9d63267c949ba8cadd268ac23d96da1b7eb4534642bbc57519769cc00bd54a"
+    },
+    {
+      "audio_id": "0480_민속악_판소리",
+      "staging_path": "artifacts/h1_retrieval/staging/audio/0480_민속악_판소리.wav",
+      "source": "git_lfs_object",
+      "bytes": 27606242,
+      "sha256": "9a2d5c33281296f4373e4ede582f1202fba3a202789bdc3f3fb12e383da01bb8"
+    },
+    {
+      "audio_id": "0736_민속악_민요",
+      "staging_path": "artifacts/h1_retrieval/staging/audio/0736_민속악_민요.wav",
+      "source": "git_lfs_object",
+      "bytes": 66161514,
+      "sha256": "d22740ce3fe575362aa2073ec1ea6119a761028fa90932d568b9eca2f351f8dd"
+    },
+    {
+      "audio_id": "0737_민속악_민요",
+      "staging_path": "artifacts/h1_retrieval/staging/audio/0737_민속악_민요.wav",
+      "source": "git_lfs_object",
+      "bytes": 61757282,
+      "sha256": "7f148f0ad5b16bd552227a121eb65548b6216e4316b707332e5d1d2c8f55404e"
+    },
+    {
+      "audio_id": "0739_민속악_민요",
+      "staging_path": "artifacts/h1_retrieval/staging/audio/0739_민속악_민요.wav",
+      "source": "git_lfs_object",
+      "bytes": 62538994,
+      "sha256": "8b5f405c2794c6567d8719a0a8ae070ebc7b196a644197556146d5c344ca4561"
+    },
+    {
+      "audio_id": "0740_민속악_민요",
+      "staging_path": "artifacts/h1_retrieval/staging/audio/0740_민속악_민요.wav",
+      "source": "git_lfs_object",
+      "bytes": 64102426,
+      "sha256": "0cb81d0d003831303a6f1ae536a624f02d34b967fde673c4f746c95f7b9182fc"
+    },
+    {
+      "audio_id": "0747_민속악_민요",
+      "staging_path": "artifacts/h1_retrieval/staging/audio/0747_민속악_민요.wav",
+      "source": "git_lfs_object",
+      "bytes": 59561046,
+      "sha256": "ccce0c8f831fb54e1af94aba6f4726f3354627129d3c10223cb854b11c213762"
+    },
+    {
+      "audio_id": "0812_창작국악_창작국악",
+      "staging_path": "artifacts/h1_retrieval/staging/audio/0812_창작국악_창작국악.wav",
+      "source": "git_lfs_object",
+      "bytes": 58196146,
+      "sha256": "c2fd16d1e6f07d5de688571afff297bb4cca5ee0399466fd15f712032ff687c9"
+    },
+    {
+      "audio_id": "0825_창작국악_창작국악",
+      "staging_path": "artifacts/h1_retrieval/staging/audio/0825_창작국악_창작국악.wav",
+      "source": "git_lfs_object",
+      "bytes": 33007602,
+      "sha256": "7a435e4d290baead5a0a20b62f2e50198ad36a03ae42e588dd9fcf1abe9c196b"
+    },
+    {
+      "audio_id": "0833_창작국악_창작국악",
+      "staging_path": "artifacts/h1_retrieval/staging/audio/0833_창작국악_창작국악.wav",
+      "source": "git_lfs_object",
+      "bytes": 45167594,
+      "sha256": "21530a1d67fd3b072889de8aab043c686f4ddfcab992e0e1aa9e55c01d7d6e40"
+    },
+    {
+      "audio_id": "0835_창작국악_창작국악",
+      "staging_path": "artifacts/h1_retrieval/staging/audio/0835_창작국악_창작국악.wav",
+      "source": "git_lfs_object",
+      "bytes": 39956170,
+      "sha256": "2bd33ddc194953c65b444c58b33a188d35e17038fa0bc6d2a558c6f422e36367"
+    },
+    {
+      "audio_id": "0842_창작국악_창작국악",
+      "staging_path": "artifacts/h1_retrieval/staging/audio/0842_창작국악_창작국악.wav",
+      "source": "git_lfs_object",
+      "bytes": 29707042,
+      "sha256": "63031194e2c15ceac86bd6cf530238caa830a4952bb1a1150c98d63ee950f82d"
+    }
+  ]
+}

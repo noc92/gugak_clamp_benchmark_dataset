@@ -13,3 +13,6 @@
 artifacts/clamp3_test/staging/
 artifacts/clamp3_test/mert/
 
+# Zero-copy Git LFS links used by the H1 retrieval experiment
+artifacts/h1_retrieval/staging/
+

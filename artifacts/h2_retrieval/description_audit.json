@@ -1,0 +1,24 @@
+{
+  "rows": 33,
+  "assigned_target_counts": {
+    "장구": 25,
+    "대금": 3,
+    "소리북": 5
+  },
+  "label_instrument_occurrence_counts": {
+    "장구": 25,
+    "대금": 28,
+    "소리북": 5
+  },
+  "unique_texts": {
+    "romanized_en": 3,
+    "descriptive_en": 3
+  },
+  "structure": "This piece features a <target noun phrase>.",
+  "equivalence_status": "needs_human_review",
+  "term_notes": {
+    "장구": "Strong shape-level equivalence; human review still pending.",
+    "소리북": "Broad/non-unique: the phrase omits the instrument's pansori-accompaniment function and tacked-head distinction.",
+    "대금": "Broad/non-unique: the phrase omits the daegeum's large size and membrane."
+  }
+}

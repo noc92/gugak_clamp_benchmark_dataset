@@ -1,0 +1,31 @@
+{
+  "queries": 33,
+  "candidates": 33,
+  "answer_groups": 17,
+  "answer_definition": "multi-positive: genre_major + genre + unordered validated instrument set",
+  "ranking": "1 + count(scores strictly greater than best positive score)",
+  "mrr": {
+    "native_kr": 0.166690684317552,
+    "en": 0.22680593359872417,
+    "mt_kr": 0.16916715680260572
+  },
+  "delta_mrr_native_minus_mt": -0.0024764724850537267,
+  "native_to_mt_rank_change": {
+    "improved": 11,
+    "unchanged": 15,
+    "worsened": 7,
+    "mean": -0.30303030303030304
+  },
+  "embedding_counts": {
+    "audio": 33,
+    "native_kr": 33,
+    "en": 33,
+    "mt_kr": 33
+  },
+  "embedding_shape": [
+    1,
+    768
+  ],
+  "embedding_dtype": "float32",
+  "nonfinite_values": 0
+}

@@ -1,0 +1,140 @@
+{
+  "queries": 33,
+  "candidates": 33,
+  "exact_unique_texts_per_condition": 3,
+  "primary_proxy_answer_definition": "H1-compatible metadata group: genre_major + genre + unordered instrument set",
+  "primary_proxy_warning": "H2 text mentions only one target instrument, so this 17-group answer definition is under-specified and provisional.",
+  "query_mrr": {
+    "romanized_en": 0.19203551423317736,
+    "descriptive_en": 0.18885143542006286
+  },
+  "query_delta_romanized_minus_descriptive": 0.0031840788131144993,
+  "group_macro_mrr": {
+    "romanized_en": 0.15776630371966216,
+    "descriptive_en": 0.18148727313952226
+  },
+  "group_macro_delta_romanized_minus_descriptive": -0.0237209694198601,
+  "group_bootstrap_romanized_minus_descriptive": {
+    "estimate": -0.023720969419860096,
+    "ci_95_percentile": [
+      -0.1421284936474986,
+      0.12717590805943632
+    ],
+    "replicates": 100000,
+    "seed": 20261122,
+    "resampling_unit": "metadata_group"
+  },
+  "term_metrics": {
+    "장구": {
+      "assigned_query_count": 25,
+      "metadata_group_count": 13,
+      "label_positive_count": 25,
+      "query_mrr": {
+        "romanized_en": 0.21698584359110676,
+        "descriptive_en": 0.1966913021618904
+      },
+      "query_delta_romanized_minus_descriptive": 0.02029454142921635,
+      "group_macro_mrr": {
+        "romanized_en": 0.18007152728812648,
+        "descriptive_en": 0.1874719611710562
+      },
+      "term_presence_positive_mrr": {
+        "romanized_en": 1.0,
+        "descriptive_en": 1.0
+      }
+    },
+    "소리북": {
+      "assigned_query_count": 5,
+      "metadata_group_count": 1,
+      "label_positive_count": 5,
+      "query_mrr": {
+        "romanized_en": 0.14285714285714285,
+        "descriptive_en": 0.16666666666666666
+      },
+      "query_delta_romanized_minus_descriptive": -0.023809523809523808,
+      "group_macro_mrr": {
+        "romanized_en": 0.14285714285714285,
+        "descriptive_en": 0.16666666666666666
+      },
+      "term_presence_positive_mrr": {
+        "romanized_en": 0.14285714285714285,
+        "descriptive_en": 0.16666666666666666
+      }
+    },
+    "대금": {
+      "assigned_query_count": 3,
+      "metadata_group_count": 3,
+      "label_positive_count": 28,
+      "query_mrr": {
+        "romanized_en": 0.06608005521048999,
+        "descriptive_en": 0.16049382716049382
+      },
+      "query_delta_romanized_minus_descriptive": -0.09441377195000383,
+      "group_macro_mrr": {
+        "romanized_en": 0.06608005521048999,
+        "descriptive_en": 0.16049382716049382
+      },
+      "term_presence_positive_mrr": {
+        "romanized_en": 0.3333333333333333,
+        "descriptive_en": 1.0
+      }
+    }
+  },
+  "primary_term_macro_mrr": {
+    "romanized_en": 0.14197434721957988,
+    "descriptive_en": 0.1746172653296836
+  },
+  "primary_term_macro_delta": -0.032642918110103725,
+  "supplementary_term_presence_answer_definition": "All candidates whose validated label instrument set contains the target term",
+  "supplementary_term_presence_mrr": {
+    "romanized_en": 0.8095238095238095,
+    "descriptive_en": 0.8737373737373737
+  },
+  "supplementary_term_presence_delta": -0.06421356421356417,
+  "supplementary_term_presence_term_macro_mrr": {
+    "romanized_en": 0.4920634920634921,
+    "descriptive_en": 0.7222222222222222
+  },
+  "supplementary_term_presence_term_macro_delta": -0.23015873015873012,
+  "rank_change_counts": {
+    "descriptive_better": 23,
+    "same": 0,
+    "descriptive_worse": 10,
+    "max_absolute": 24
+  },
+  "description_audit": {
+    "rows": 33,
+    "assigned_target_counts": {
+      "장구": 25,
+      "대금": 3,
+      "소리북": 5
+    },
+    "label_instrument_occurrence_counts": {
+      "장구": 25,
+      "대금": 28,
+      "소리북": 5
+    },
+    "unique_texts": {
+      "romanized_en": 3,
+      "descriptive_en": 3
+    },
+    "structure": "This piece features a <target noun phrase>.",
+    "equivalence_status": "needs_human_review",
+    "term_notes": {
+      "장구": "Strong shape-level equivalence; human review still pending.",
+      "소리북": "Broad/non-unique: the phrase omits the instrument's pansori-accompaniment function and tacked-head distinction.",
+      "대금": "Broad/non-unique: the phrase omits the daegeum's large size and membrane."
+    }
+  },
+  "embedding_counts": {
+    "audio_reused": 33,
+    "romanized_en": 33,
+    "descriptive_en": 33
+  },
+  "embedding_shape": [
+    1,
+    768
+  ],
+  "embedding_dtype": "float32",
+  "nonfinite_values": 0
+}
