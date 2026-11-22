@@ -1,0 +1,15 @@
+# Local CLaMP 3 runtime and Python environment
+.clamp3-runtime/
+.venv-clamp3/
+
+# Downloaded model caches and checkpoints
+.cache/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# Ephemeral inputs/intermediate features used by the smoke test
+artifacts/clamp3_test/staging/
+artifacts/clamp3_test/mert/
+

@@ -1,0 +1,9 @@
+modality,file,shape,dtype,nan_count,inf_count,all_finite,l2_norm
+audio,0001_정악_풍류음악.npy,"(1, 768)",float32,0,0,true,16.650451660
+audio,0010_정악_풍류음악.npy,"(1, 768)",float32,0,0,true,16.787563324
+audio,0123_정악_궁중음악.npy,"(1, 768)",float32,0,0,true,16.651794434
+audio,0174_민속악_산조.npy,"(1, 768)",float32,0,0,true,16.260326385
+text,en_janggu.npy,"(1, 768)",float32,0,0,true,2.344522715
+text,en_traditional.npy,"(1, 768)",float32,0,0,true,4.179146767
+text,ko_janggu.npy,"(1, 768)",float32,0,0,true,2.277118444
+text,ko_traditional.npy,"(1, 768)",float32,0,0,true,3.800558090
